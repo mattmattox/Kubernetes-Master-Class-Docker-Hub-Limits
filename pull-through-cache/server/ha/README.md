@@ -48,3 +48,7 @@ You should work with your networking/load balancer team to create a load balance
 - Port: 3128
 - Load‑balancing method: Round Robin
 - Health check: HTTP GET / with a 200 OK
+
+## Credit
+
+This is based on [https://github.com/rpardini/docker-registry-proxy](https://github.com/rpardini/docker-registry-proxy)

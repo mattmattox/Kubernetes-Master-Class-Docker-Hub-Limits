@@ -21,3 +21,7 @@ docker run --rm --name docker_registry_proxy -it \​
 -e AUTH_REGISTRIES="auth.docker.io:dockerhub_username:dockerhub_password your.own.registry:username:password" \​
 tiangolo/docker-registry-proxy:latest
 ```
+
+## Credit
+
+This was based on [https://github.com/tiangolo/docker-registry-proxy](https://github.com/tiangolo/docker-registry-proxy)
