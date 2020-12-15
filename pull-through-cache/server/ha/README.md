@@ -39,6 +39,10 @@ kubectl apply -f 03-secret.yaml
 
 NOTE: This app is a [DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/) so it will run on all nodes. You can use [taints](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/#taints-and-tolerations) to limit the app to a set of nodes.
 
+```
+kubectl apply -f 04-deployment.yaml
+```
+
 ### Setup the TCP load balancer
 
 You should work with your networking/load balancer team to create a load balancer with the following settings.
